@@ -15,8 +15,11 @@
     "@vue/cli-plugin-eslint": "^3.2.0",
     "@vue/cli-service": "^3.2.0",
     "babel-eslint": "^10.0.1",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
     "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
+    "eslint-config-haifengfe": "^0.1.5",
+    "vue-cli-plugin-coffeescript": "0.0.3",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
@@ -25,8 +28,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "haifengfe/vue"
     ],
     "rules": {},
     "parserOptions": {
