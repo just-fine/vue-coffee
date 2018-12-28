@@ -48,7 +48,7 @@
 <br/>
 
 ### Examples
-[online examples]()
+[online examples](https://vue-coffee.js.org/)
 
 <br/>
 
