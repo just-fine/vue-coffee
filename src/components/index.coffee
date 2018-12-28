@@ -1,5 +1,6 @@
 components = [
   require './hello_world'
+  require './summary'
 ]
 
 module.exports = (vue) ->
