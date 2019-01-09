@@ -1,9 +1,10 @@
+import $style from './summary.styl'
 
 export default
   name: 'repo-summary'
 
   render: (h) ->
-    <div>
+    <div class={$style.summary}>
       <h1>vue-coffee</h1>
       <div class="alert alert-info">
         <blockquote>using CoffeeScript2 in vue project.</blockquote>
