@@ -46,5 +46,5 @@ export default
       </code></pre>
       <br/><br/><br/>
       <hr/>
-      This project is open-sourced on <a href="https://github.com/HaiFengFE/vue-coffee-guide">GitHub</a>
+      This project is open-sourced on <a href="https://github.com/just-fine/vue-coffee">GitHub</a>
     </div>

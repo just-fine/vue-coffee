@@ -1,4 +1,4 @@
-## vue-coffee-guide
+## vue-coffee
 > using CoffeeScript2 in vue project.
 > write less code, better code.
 
@@ -6,7 +6,7 @@
 
 ### Try coffee
 
-1. clone repo: `git clone https://github.com/HaiFengFE/vue-coffee-guide`
+1. clone repo: `git clone https://github.com/just-fine/vue-coffee`
 
 2. run it: `npm i && npm run serve`
 

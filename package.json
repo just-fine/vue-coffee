@@ -1,39 +1,21 @@
 {
-  "name": "vue-coffee-guide",
+  "name": "@fine.sh/vue-coffee",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && cp .netlify/CNAME ./dist/CNAME",
-    "lint": "vue-cli-service lint"
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build && cp .netlify/CNAME ./dist/CNAME"
   },
   "dependencies": {
     "vue": "^2.5.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
-    "@vue/cli-plugin-eslint": "^3.2.0",
     "@vue/cli-service": "^3.2.0",
-    "babel-eslint": "^10.0.1",
     "coffee-loader": "^0.9.0",
     "coffeescript": "^2.3.2",
-    "eslint": "^5.8.0",
-    "eslint-config-haifengfe": "^0.1.5",
     "vue-cli-plugin-coffeescript": "0.0.3",
     "vue-template-compiler": "^2.5.17"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "haifengfe/vue"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
   },
   "postcss": {
     "plugins": {
