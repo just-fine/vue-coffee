@@ -3,6 +3,6 @@ components = [
   require './summary'
 ]
 
-module.exports = (vue) ->
+export default (vue) ->
   vue.component(com.name, com) for com in \
-    (m.default for m in components when m?.default isnt undefined)
+    (m.default for m in components when m?.default?)

@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "vue-cli-service serve",
-    "build": "vue-cli-service build && cp .netlify/CNAME ./dist/CNAME"
+    "build": "vue-cli-service build",
+    "deploy": "npm run build && cp .netlify/CNAME ./dist/CNAME && netlify deploy"
   },
   "dependencies": {
     "vue": "^2.5.17"

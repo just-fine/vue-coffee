@@ -1,6 +1,7 @@
 import vue from 'vue'
 import app from './app'
-(require './components') vue
+import component from './components'
+component vue
 
 vue.config?.productionTip = false
 
