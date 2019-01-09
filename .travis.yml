@@ -21,5 +21,4 @@ install:
   - npm i
 
 script:
-  - /bin/bash scripts/lint-commits.sh
   - npm run build
