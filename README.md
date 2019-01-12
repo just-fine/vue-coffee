@@ -6,9 +6,7 @@
 
 ### Try coffee
 
-1. clone repo: `git clone https://github.com/just-fine/vue-coffee`
-
-2. run it: `npm i && npm run serve`
+1. init project: `npx @fine.sh/cs init vue`
 
 <br/>
 
