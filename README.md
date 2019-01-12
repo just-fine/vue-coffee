@@ -8,6 +8,8 @@
 
 1. init project: `npx @fine.sh/cs init vue`
 
+2. start: `npm start`
+
 <br/>
 
 ### How to
