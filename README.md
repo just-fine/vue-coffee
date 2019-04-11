@@ -6,7 +6,7 @@
 
 ### Try coffee
 
-1. init project: `npx @fine.sh/cs init vue`
+1. init project: `npx @fine.sh/cs init`
 
 2. start: `npm start`
 
